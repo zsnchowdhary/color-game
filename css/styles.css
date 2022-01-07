@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  background-color: steelblue;
+  margin: 0;
+  padding: 20px 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+#color-code {
+  display: block;
+  font-size: 200%;
+}
+
+#control-panel {
+  background: #fff;
+  height: 1.9em;
+  text-align: center;
+}
+
+button {
+  border: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: inherit;
+  color: steelblue;
+  height: 100%;
+  letter-spacing: 1px;
+  transition: color 0.3s, background 0.3s;
+  outline: none;
+}
+
+button:hover {
+  background-color: steelblue;
+  color: white;
+}
+
+.selected {
+  background: steelblue;
+  color: #fff;
+}
+
+.mode {
+  margin-right: 0.1rem;
+}
+
+#game-status {
+  display: inline-block;
+  width: 20%;
+}
+
+#square-container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.square {
+  width: 30%;
+  float: left;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: background 0.5s;
+}
