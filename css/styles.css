@@ -71,3 +71,16 @@ button:hover {
   border-radius: 15%;
   transition: background 0.5s;
 }
+
+/************************************  Media Queries  *****************************/
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+  #color-code {
+    font-size: 130%;
+  }
+  button {
+    font-size: 0.9rem;
+  }
+}
